@@ -18,13 +18,13 @@ footer: MIT Licensed | Copyright © 2023-present guobingyu-blog
 ## 🌐 最近更新
 
 - **大前端**
-  - [《01.正则表达式》](http://www.almx.top/blog/PAGE/2019-10-14-js-reg)
+  - [《01.正则表达式》](hjs-reg)
 
 - **练习**
-  - [《01.扫雷》](http://www.almx.top/blog/PAGE/2019-10-23-sweep)
+  - [《01.扫雷》](ht-sweep)
 
 - **工具**
-  - [《01.GitHub贡献不增加》](http://www.almx.top/blog/PAGE/2019-10-23-git-contribution)
+  - [《01.GitHub贡献不增加》](ht)
 
 - **冲浪**
-  - [《01.GitHub贡献不增加》](http://www.almx.top/blog/PAGE/2019-10-23-git-contribution)
+  - [《01.GitHub贡献不增加》](httion)

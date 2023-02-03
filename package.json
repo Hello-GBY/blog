@@ -6,7 +6,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-	"deploy-gh": "GH=1 yarn docs:build && bash /deploy-gh.sh"
+	  "deploy-gh": "npm run docs:build && bash /deploy-gh.sh"
   },
   "keywords": [],
   "author": "",
