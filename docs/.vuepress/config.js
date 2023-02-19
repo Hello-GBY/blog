@@ -3,8 +3,8 @@ const sidebar = require('./config/sidebar'); //引入侧边栏配置
 // const routeConfig = require('./plugins/routeConfig'); //引入路由配置
 
 module.exports = {
-    title: "郭兵宇的博客",
-    description: "好记性不如烂笔头",
+    title: "郭兵宇的个人博客",
+    description: "正在搭建中...",
     head: [
         // 这里的 '/' 指向 docs/.vuepress/public 文件目录 
         ['link', {
