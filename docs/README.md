@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /img/favorite.png
-heroText: 郭兵宇的博客
-tagline: 正在搭建中...
+heroText: 兵宇的博客
+tagline: 正在努力搭建中...
 actionText: 点击进入 →
 actionLink: /前端/01.Javascript/01.正则表达式
 features:
@@ -12,19 +12,6 @@ features:
   details: 便于查阅。
 - title: 分享
   details: 分享知识。
+
 footer: MIT Licensed | Copyright © 2023-present guobingyu-blog
 ---
-
-## 🌐 最近更新
-
-- **大前端**
-  - [《01.正则表达式》](hjs-reg)
-
-- **练习**
-  - [《01.扫雷》](ht-sweep)
-
-- **工具**
-  - [《01.GitHub贡献不增加》](ht)
-
-- **冲浪**
-  - [《01.GitHub贡献不增加》](httion)

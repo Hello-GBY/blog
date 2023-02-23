@@ -9,14 +9,14 @@ import { defaultTheme } from 'vuepress'
 export default defineUserConfig({
   lang: 'zh-CN',
   base: '/blog/', // 部署到github会用到的配置
-  title: "郭兵宇的个人博客",
+  title: "兵宇的博客",
   theme: defaultTheme({
     // 默认主题配置
     // navbar, //导航
     navbar: [
         {
             text: '一起进步',
-            link: '/一起进步.md'
+            link: '/一起进步/一起进步.md'
         },
         {
             text: '企业级实战经验',
@@ -29,12 +29,12 @@ export default defineUserConfig({
         // NavbarGroup
         {
             text: '个人知识库',
-            link: '/个人知识库/readme.md'
+            link: '/个人知识库/个人知识库.md'
         },
         // NavbarGroup
         {
             text: '读书笔记',
-            link: '/读书笔记/readme.md'
+            link: '/读书笔记/读书笔记.md'
         }
     ],
     sidebar, //侧边栏
