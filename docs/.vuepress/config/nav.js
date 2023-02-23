@@ -7,7 +7,7 @@ const nav = [
     // 2.0 显示标题到导航栏，且显示下拉标题
     {
         text: '关于作者',
-        items: [{
+        children: [{
                 text: 'GitHub',
                 link: '',
             },
