@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /img/favorite.png
+heroImage: /img/zhuzhuxia.jpg
 heroText: 兵宇的博客
 tagline: 正在努力搭建中...
 actionText: 点击进入 →
