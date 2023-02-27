@@ -1,19 +1,24 @@
 const navbar = require("./config/nav"); //引入导航栏配置
 const sidebar = require("./config/sidebar"); //引入侧边栏配置
 // const routeConfig = require('./plugins/routeConfig'); //引入路由配置
-import { defineUserConfig } from "vuepress";
-import { defaultTheme } from "vuepress";
+import { defineUserConfig, defaultTheme } from "vuepress";
 
 export default defineUserConfig({
   lang: "zh-CN",
   base: "/blog/", // 部署到github会用到的配置
   title: "兵宇的博客",
   theme: defaultTheme({
+    displayAllHeaders: false, //展开侧边栏所有的小标题
+    sidebarDepth: 1, //提取markdown中h2标题，作为小标题显示在侧边栏上。
     // 默认主题配置
     // navbar, //导航
     navbar,
     sidebar: {
-        '/dev-experience/': [
+      "/dev-experience/": [
+        {
+          text: "CSS解决方案",
+          link: "./css解决方案/css解决方案.md",
+          children: [
             {
               text: 'CSS解决方案',
               link: '/dev-experience/css解决方案/css解决方案.md',
@@ -23,12 +28,14 @@ export default defineUserConfig({
               }],
             },
           ],
-          '/reference/': [
-            {
-              text: 'Reference',
-              children: ['/reference/cli.md', '/reference/config.md'],
-            },
-          ],
+        },
+      ],
+      "/reference/": [
+        {
+          text: "Reference",
+          children: ["/reference/cli.md", "/reference/config.md"],
+        },
+      ],
     }, //侧边栏
     repo: "https://github.com/Hello-GBY",
     repoLabel: "GitHub",
