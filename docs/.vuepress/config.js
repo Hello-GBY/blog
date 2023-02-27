@@ -20,8 +20,12 @@ export default defineUserConfig({
           link: "./css解决方案/css解决方案.md",
           children: [
             {
-              text: "CSS规范化",
-              link: "./css解决方案/CSS规范化.md",
+              text: 'CSS解决方案',
+              link: '/dev-experience/css解决方案/css解决方案.md',
+              children: [ {
+                text: 'CSS规范化',
+                link: '/dev-experience/css解决方案/CSS规范化.md',
+              }],
             },
           ],
         },
@@ -54,6 +58,9 @@ export default defineUserConfig({
   },
   description: "这是我的第一个 VuePress 站点",
 });
+
+
+// https://vuepress-theme-hope.gitee.io/v1/md-enhance/zh/guide/code-group.html#
 
 // module.exports = {
 //     description: "正在搭建中...",
