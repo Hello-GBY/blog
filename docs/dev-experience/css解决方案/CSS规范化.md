@@ -1,7 +1,7 @@
+记得刚进团队时, 甩手就给一篇网上关于命名的教程一大堆，真正写项目的时候，哪里有意识去按照正真的规范来走呢~。
+
 # CSS命名规范
 
-记得刚进团队时, 甩手就给一篇
-网上关于命名的教程一大堆，真正写项目的时候，哪里有意识去按照正真的规范来走。
 
 Stylelint
 csslint、SCSS-Lint和Stylelint等几种
@@ -20,7 +20,8 @@ extends字段为官方推荐的标准规则
 
 
 # 怎么配置
-
+巴拉巴拉
+有个动图来展示
 # 如何去找
 
 # vscode插件如何配置
@@ -31,3 +32,5 @@ https://stylelint.io/user-guide/rules/font-family-no-missing-generic-family-keyw
 https://huaweicloud.csdn.net/639ff55cdacf622b8df90d1b.html
 
 https://www.npmjs.com/package/stylelint-config-recommended-vue
+
+# 正在编写中。。

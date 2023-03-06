@@ -23,3 +23,6 @@
 
 # vuepress temp file
 .temp
+
+/docs/.vuepress/.cache/
+/docs/.vuepress/.temp/
