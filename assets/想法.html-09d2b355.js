@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-580352c8","path":"/%E4%B8%80%E8%B5%B7%E8%BF%9B%E6%AD%A5/%E6%83%B3%E6%B3%95.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1677408099000,"contributors":[{"name":"gby","email":"nameGBY@163.com","commits":1}]},"filePathRelative":"一起进步/想法.md"}');export{t as data};
